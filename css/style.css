@@ -428,6 +428,9 @@ footer div a {
 }
 
 @media only screen and (min-width: 768px) {
+    input[type="checkbox"]:not(:checked)~ul {
+        display: flex;
+    }
     /* header */
     header nav {
         height: 8.0rem;
